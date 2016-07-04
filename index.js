@@ -14,8 +14,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/webhook', function(req, res) {
-   if (req.query['hub.mode'] === 'subscribe' &amp;&amp;
-      req.query['hub.verify_token'] === VALIDATION_TOKEN) {
+   if (req.query['hub.verify_token'] === 'super-secrit') {
     console.log("Validating webhook");
     res.status(200).send(req.query['hub.challenge']);
   } else {
