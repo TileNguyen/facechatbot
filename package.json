@@ -1,0 +1,22 @@
+{
+  "name": "facechatbot",
+  "version": "1.0.0",
+  "description": "chat bot for facebook",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha /test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TileNguyen/facechatbot.git"
+  },
+  "author": "TILE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TileNguyen/facechatbot/issues"
+  },
+  "homepage": "https://github.com/TileNguyen/facechatbot#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
