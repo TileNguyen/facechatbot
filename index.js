@@ -20,7 +20,7 @@ const VALIDATION_TOKEN = (process.env.MESSENGER_VALIDATION_TOKEN) ?
 	process.env.MESSENGER_VALIDATION_TOKEN : config.get('validationToken');
 
 app.get('/', function (req, res) {
-	res.send('312727544');
+	res.send('1543526296');
 });
 
 app.get('/webhook', function(req, res) {
