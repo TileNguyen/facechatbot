@@ -58,7 +58,8 @@ app.post('/webhook', function (req, res) {
 		});
 		res.sendStatus(200);
 	} else {
-		console.log(data.object);
+    res.sendStatus(200);
+		// console.log(data.object);
 	}
 });
 
