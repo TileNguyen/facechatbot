@@ -1,25 +1,27 @@
 {
-  "name": "facechatbot",
+  "name": "messenger-get-started",
   "version": "1.0.0",
-  "description": "chat bot for facebook",
-  "main": "index.js",
+  "description": "Get started example for Messenger Platform",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha /test/index.test.js"
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TileNguyen/facechatbot.git"
+    "url": "https://github.com/fbsamples/messenger-platform-samples.git"
   },
-  "author": "TILE",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TileNguyen/facechatbot/issues"
-  },
-  "homepage": "https://github.com/TileNguyen/facechatbot#readme",
+  "author": "Facebook",
+  "license": "ISC",
   "dependencies": {
-    "config": "^1.21.0",
-    "express": "^4.14.0",
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
     "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
   }
 }
