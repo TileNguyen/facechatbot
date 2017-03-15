@@ -1,6 +1,6 @@
 {
-    "appSecret": "",
-    "pageAccessToken": "",
-    "validationToken": "",
-    "serverURL": ""
+  "appSecret": "",
+  "pageAccessToken": "EAAS4O93ZBOd0BAGZCThxfOhi5VgWCtmhtLVc2RNHJpMzBnSWfRMQInMCb1HZCBK0fpPiHTL65fGFRnm3SP4R4cjc7cOZCYL2NUfqrAnpqfHZCJGO4KVSosdZCEk0n7Tv7R7zBx91Q1RVguOJDKIDZBgMiMIcKvuxungtywDgKsbTQZDZD",
+  "validationToken": "super-secrit",
+  "serverURL": ""
 }
